@@ -64,10 +64,8 @@ An AI assistant designed to provide clear and simple explanations for fundamenta
 
 ```
 cyber_security/
-├── .gitignore
-├── alternative_architectures.md  # Documents alternative model deployment strategies
-├── app.py                        # Main Flask application
-├── model_evidence.md             # Justification for the selected AI model
+├── .gitignore 
+├── app.py                        # Main Flask application           
 ├── requirements.txt              # Python dependencies
 ├── task.txt                      # Project requirements
 ├── agents/
