@@ -2,16 +2,6 @@
 
 An AI assistant designed to provide clear and simple explanations for fundamental cybersecurity concepts. This tool is perfect for individuals new to the field, students, or professionals looking to brush up on their knowledge.
 
-## Screenshots
-
-![Screenshot 1](ScreenShots/1.png)
-![Screenshot 2](screenshots/2.png)
-![Screenshot 3](screenshots/3.png)
-![Screenshot 4](screenshots/4.png)
-![Screenshot 5](screenshots/5.png)
-![Screenshot 6](screenshots/6.png)
-![Screenshot 7](screenshots/7.png)
-
 ## Features
 
 - **Conversational AI:** Engage in a natural conversation to learn about cybersecurity.
@@ -94,3 +84,13 @@ cyber_security/
 ## How It Works
 
 The application uses a Flask backend to serve a simple web interface. When a user sends a message, it's processed by the `MemoryAgentHF` in `ai_assistant.py`. This agent communicates with the HuggingFace API to get a response from the `meta-llama/Meta-Llama-3.1-8B-Instruct` model, then displays it to the user. The conversation history is saved to the `memory` folder.
+
+## Screenshots
+
+![Screenshot 1](ScreenShots/1.png)
+![Screenshot 2](ScreenShots/2.png)
+![Screenshot 3](ScreenShots/3.png)
+![Screenshot 4](ScreenShots/4.png)
+![Screenshot 5](ScreenShots/5.png)
+![Screenshot 6](ScreenShots/6.png)
+![Screenshot 7](ScreenShots/7.png)
